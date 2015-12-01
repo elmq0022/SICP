@@ -1,7 +1,7 @@
 #lang planet neil/sicp
 ;;;
 ; SICP - https://sicpebook.wordpress.com/ebook/
-; Exercies 1.1
+; Exercies 01.01
 ; What do each of following blocks return?
 ;;;
 
