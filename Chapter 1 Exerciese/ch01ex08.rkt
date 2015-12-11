@@ -2,7 +2,7 @@
 
 ;;;
 ;; SICP - https://sicpebook.wordpress.com/ebook/
-;; Exercise 01.07
+;; Exercise 01.08
 ;; Newton's method for cube roots.
 ;;;
 
