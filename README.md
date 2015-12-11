@@ -2,4 +2,4 @@ Learning SICP
 =============
 
 I am using this repository to track my progress on the exercises in the book
-the Structure and Interpretation of Computer Programs.  
+_The Structure and Interpretation of Computer Programs_.  
