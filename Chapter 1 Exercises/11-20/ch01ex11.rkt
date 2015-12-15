@@ -21,8 +21,9 @@
 (f_r 4)
 (f_r 5)
 
-;; Iterative version in two parts
-;; Procedure stores state of f_{n-2}, f_{n-1}, and f_{n}
+;; Iterative version in two parts.  
+;; Procedure stores state the state of f_{n-2}, f_{n-1},
+;; and f_{n} in successive funtion calls.  
 
 (define (f_i_iter f1 f2 f3 n)
   (if(< n 1)
@@ -34,8 +35,8 @@
                   (* 3 f1))
                (- n 1))))
 
-;; prime the state with the values of f(0), f(1), and f(2)
-;; count down  until n < 1 and f(n) in in position of f1
+;; Prime the state with the values of f(0), f(1), and f(2).
+;; Count down until n < 1 and f(n) is in position of f1.  
 
 (define (f_i n)
   (f_i_iter 0 1 2 n))
