@@ -2,13 +2,12 @@
 
 ;;;
 ;; SICP - https://sicpebook.wordpress.com/ebook/
-;; Exercise 01.16
-;; Sine of X
+;; Exercise 01.17
+;; Fast Multiply 
 ;;;
 
-
-;; Design a procedure that evolves an iterative exponentiation
-;; process that uses successive squaring and uses a 
+;; Design a procedure that evolves an iterative multiplication
+;; process that uses successive doubling and uses a 
 ;; logarithmic number of steps, as does fast-expt.
 
 (define (double x)
